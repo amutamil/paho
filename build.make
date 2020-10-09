@@ -55,628 +55,143 @@ CMAKE_SOURCE_DIR = "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\p
 CMAKE_BINARY_DIR = "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho"
 
 # Include any dependencies generated for this target.
-include src\CMakeFiles\common_obj.dir\depend.make
+include src\CMakeFiles\paho-mqtt3cs.dir\depend.make
 
 # Include the progress variables for this target.
-include src\CMakeFiles\common_obj.dir\progress.make
+include src\CMakeFiles\paho-mqtt3cs.dir\progress.make
 
 # Include the compile flags for this target's objects.
-include src\CMakeFiles\common_obj.dir\flags.make
+include src\CMakeFiles\paho-mqtt3cs.dir\flags.make
 
-src\CMakeFiles\common_obj.dir\MQTTTime.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\MQTTTime.c.obj: ..\src\MQTTTime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/common_obj.dir/MQTTTime.c.obj"
+src\CMakeFiles\paho-mqtt3cs.dir\MQTTClient.c.obj: src\CMakeFiles\paho-mqtt3cs.dir\flags.make
+src\CMakeFiles\paho-mqtt3cs.dir\MQTTClient.c.obj: ..\src\MQTTClient.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/paho-mqtt3cs.dir/MQTTClient.c.obj"
 	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\MQTTTime.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTTime.c"
+  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\paho-mqtt3cs.dir\MQTTClient.c.obj /FdCMakeFiles\paho-mqtt3cs.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTClient.c"
 <<
 	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
 
-src\CMakeFiles\common_obj.dir\MQTTTime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/MQTTTime.c.i"
+src\CMakeFiles\paho-mqtt3cs.dir\MQTTClient.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/paho-mqtt3cs.dir/MQTTClient.c.i"
 	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\MQTTTime.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTTime.c"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\paho-mqtt3cs.dir\MQTTClient.c.i @<<
+  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTClient.c"
 <<
 	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
 
-src\CMakeFiles\common_obj.dir\MQTTTime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/MQTTTime.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\MQTTTime.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTTime.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTProtocolClient.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\MQTTProtocolClient.c.obj: ..\src\MQTTProtocolClient.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/CMakeFiles/common_obj.dir/MQTTProtocolClient.c.obj"
+src\CMakeFiles\paho-mqtt3cs.dir\MQTTClient.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/paho-mqtt3cs.dir/MQTTClient.c.s"
 	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\MQTTProtocolClient.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTProtocolClient.c"
+  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\paho-mqtt3cs.dir\MQTTClient.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTClient.c"
 <<
 	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
 
-src\CMakeFiles\common_obj.dir\MQTTProtocolClient.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/MQTTProtocolClient.c.i"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\MQTTProtocolClient.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTProtocolClient.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTProtocolClient.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/MQTTProtocolClient.c.s"
+src\CMakeFiles\paho-mqtt3cs.dir\SSLSocket.c.obj: src\CMakeFiles\paho-mqtt3cs.dir\flags.make
+src\CMakeFiles\paho-mqtt3cs.dir\SSLSocket.c.obj: ..\src\SSLSocket.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/CMakeFiles/paho-mqtt3cs.dir/SSLSocket.c.obj"
 	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\MQTTProtocolClient.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTProtocolClient.c"
+  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\paho-mqtt3cs.dir\SSLSocket.c.obj /FdCMakeFiles\paho-mqtt3cs.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\SSLSocket.c"
 <<
 	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
 
-src\CMakeFiles\common_obj.dir\Clients.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\Clients.c.obj: ..\src\Clients.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/CMakeFiles/common_obj.dir/Clients.c.obj"
+src\CMakeFiles\paho-mqtt3cs.dir\SSLSocket.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/paho-mqtt3cs.dir/SSLSocket.c.i"
+	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\paho-mqtt3cs.dir\SSLSocket.c.i @<<
+  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\SSLSocket.c"
+<<
+	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
+
+src\CMakeFiles\paho-mqtt3cs.dir\SSLSocket.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/paho-mqtt3cs.dir/SSLSocket.c.s"
 	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\Clients.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Clients.c"
+  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\paho-mqtt3cs.dir\SSLSocket.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\SSLSocket.c"
 <<
 	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
 
-src\CMakeFiles\common_obj.dir\Clients.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/Clients.c.i"
+# Object files for target paho-mqtt3cs
+paho__mqtt3cs_OBJECTS = \
+"CMakeFiles\paho-mqtt3cs.dir\MQTTClient.c.obj" \
+"CMakeFiles\paho-mqtt3cs.dir\SSLSocket.c.obj"
+
+# External object files for target paho-mqtt3cs
+paho__mqtt3cs_EXTERNAL_OBJECTS = \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\MQTTTime.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\MQTTProtocolClient.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\Clients.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\utf-8.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\MQTTPacket.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\MQTTPacketOut.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\Messages.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\Tree.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\Socket.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\Log.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\MQTTPersistence.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\Thread.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\MQTTProtocolOut.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\MQTTPersistenceDefault.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\SocketBuffer.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\LinkedList.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\MQTTProperties.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\MQTTReasonCodes.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\Base64.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\SHA1.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\WebSocket.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\StackTrace.c.obj" \
+"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_ssl_obj.dir\Heap.c.obj"
+
+src\paho-mqtt3cs.dll: src\CMakeFiles\paho-mqtt3cs.dir\MQTTClient.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\paho-mqtt3cs.dir\SSLSocket.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\MQTTTime.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\MQTTProtocolClient.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\Clients.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\utf-8.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\MQTTPacket.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\MQTTPacketOut.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\Messages.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\Tree.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\Socket.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\Log.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\MQTTPersistence.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\Thread.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\MQTTProtocolOut.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\MQTTPersistenceDefault.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\SocketBuffer.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\LinkedList.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\MQTTProperties.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\MQTTReasonCodes.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\Base64.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\SHA1.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\WebSocket.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\StackTrace.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\common_ssl_obj.dir\Heap.c.obj
+src\paho-mqtt3cs.dll: src\CMakeFiles\paho-mqtt3cs.dir\build.make
+src\paho-mqtt3cs.dll: C:\OpenSSL-Win64\lib\VC\libssl64MD.lib
+src\paho-mqtt3cs.dll: C:\OpenSSL-Win64\lib\VC\libcrypto64MD.lib
+src\paho-mqtt3cs.dll: src\CMakeFiles\paho-mqtt3cs.dir\objects1.rsp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library paho-mqtt3cs.dll"
 	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\Clients.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Clients.c"
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_dll --intdir=CMakeFiles\paho-mqtt3cs.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\link.exe  @CMakeFiles\paho-mqtt3cs.dir\objects1.rsp @<<
+ /out:paho-mqtt3cs.dll /implib:paho-mqtt3cs.lib /pdb:"C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\paho-mqtt3cs.pdb" /dll /version:1.3 /machine:x64 /INCREMENTAL:NO  C:\OpenSSL-Win64\lib\VC\libssl64MD.lib C:\OpenSSL-Win64\lib\VC\libcrypto64MD.lib ws2_32.lib crypt32.lib RpcRT4.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  
 <<
 	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Clients.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/Clients.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\Clients.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Clients.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\utf-8.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\utf-8.c.obj: ..\src\utf-8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/CMakeFiles/common_obj.dir/utf-8.c.obj"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\utf-8.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\utf-8.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\utf-8.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/utf-8.c.i"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\utf-8.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\utf-8.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\utf-8.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/utf-8.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\utf-8.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\utf-8.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTPacket.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\MQTTPacket.c.obj: ..\src\MQTTPacket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/CMakeFiles/common_obj.dir/MQTTPacket.c.obj"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\MQTTPacket.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTPacket.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTPacket.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/MQTTPacket.c.i"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\MQTTPacket.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTPacket.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTPacket.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/MQTTPacket.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\MQTTPacket.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTPacket.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTPacketOut.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\MQTTPacketOut.c.obj: ..\src\MQTTPacketOut.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/CMakeFiles/common_obj.dir/MQTTPacketOut.c.obj"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\MQTTPacketOut.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTPacketOut.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTPacketOut.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/MQTTPacketOut.c.i"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\MQTTPacketOut.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTPacketOut.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTPacketOut.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/MQTTPacketOut.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\MQTTPacketOut.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTPacketOut.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Messages.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\Messages.c.obj: ..\src\Messages.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/CMakeFiles/common_obj.dir/Messages.c.obj"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\Messages.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Messages.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Messages.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/Messages.c.i"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\Messages.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Messages.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Messages.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/Messages.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\Messages.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Messages.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Tree.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\Tree.c.obj: ..\src\Tree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/CMakeFiles/common_obj.dir/Tree.c.obj"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\Tree.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Tree.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Tree.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/Tree.c.i"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\Tree.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Tree.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Tree.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/Tree.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\Tree.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Tree.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Socket.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\Socket.c.obj: ..\src\Socket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/CMakeFiles/common_obj.dir/Socket.c.obj"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\Socket.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Socket.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Socket.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/Socket.c.i"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\Socket.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Socket.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Socket.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/Socket.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\Socket.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Socket.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Log.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\Log.c.obj: ..\src\Log.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/CMakeFiles/common_obj.dir/Log.c.obj"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\Log.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Log.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Log.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/Log.c.i"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\Log.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Log.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Log.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/Log.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\Log.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Log.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTPersistence.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\MQTTPersistence.c.obj: ..\src\MQTTPersistence.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/CMakeFiles/common_obj.dir/MQTTPersistence.c.obj"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\MQTTPersistence.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTPersistence.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTPersistence.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/MQTTPersistence.c.i"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\MQTTPersistence.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTPersistence.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTPersistence.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/MQTTPersistence.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\MQTTPersistence.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTPersistence.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Thread.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\Thread.c.obj: ..\src\Thread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/CMakeFiles/common_obj.dir/Thread.c.obj"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\Thread.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Thread.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Thread.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/Thread.c.i"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\Thread.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Thread.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Thread.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/Thread.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\Thread.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Thread.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTProtocolOut.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\MQTTProtocolOut.c.obj: ..\src\MQTTProtocolOut.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/CMakeFiles/common_obj.dir/MQTTProtocolOut.c.obj"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\MQTTProtocolOut.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTProtocolOut.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTProtocolOut.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/MQTTProtocolOut.c.i"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\MQTTProtocolOut.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTProtocolOut.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTProtocolOut.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/MQTTProtocolOut.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\MQTTProtocolOut.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTProtocolOut.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTPersistenceDefault.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\MQTTPersistenceDefault.c.obj: ..\src\MQTTPersistenceDefault.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/CMakeFiles/common_obj.dir/MQTTPersistenceDefault.c.obj"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\MQTTPersistenceDefault.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTPersistenceDefault.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTPersistenceDefault.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/MQTTPersistenceDefault.c.i"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\MQTTPersistenceDefault.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTPersistenceDefault.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTPersistenceDefault.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/MQTTPersistenceDefault.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\MQTTPersistenceDefault.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTPersistenceDefault.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\SocketBuffer.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\SocketBuffer.c.obj: ..\src\SocketBuffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/CMakeFiles/common_obj.dir/SocketBuffer.c.obj"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\SocketBuffer.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\SocketBuffer.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\SocketBuffer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/SocketBuffer.c.i"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\SocketBuffer.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\SocketBuffer.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\SocketBuffer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/SocketBuffer.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\SocketBuffer.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\SocketBuffer.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\LinkedList.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\LinkedList.c.obj: ..\src\LinkedList.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/CMakeFiles/common_obj.dir/LinkedList.c.obj"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\LinkedList.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\LinkedList.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\LinkedList.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/LinkedList.c.i"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\LinkedList.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\LinkedList.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\LinkedList.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/LinkedList.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\LinkedList.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\LinkedList.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTProperties.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\MQTTProperties.c.obj: ..\src\MQTTProperties.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/CMakeFiles/common_obj.dir/MQTTProperties.c.obj"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\MQTTProperties.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTProperties.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTProperties.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/MQTTProperties.c.i"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\MQTTProperties.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTProperties.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTProperties.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/MQTTProperties.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\MQTTProperties.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTProperties.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTReasonCodes.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\MQTTReasonCodes.c.obj: ..\src\MQTTReasonCodes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/CMakeFiles/common_obj.dir/MQTTReasonCodes.c.obj"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\MQTTReasonCodes.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTReasonCodes.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTReasonCodes.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/MQTTReasonCodes.c.i"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\MQTTReasonCodes.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTReasonCodes.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\MQTTReasonCodes.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/MQTTReasonCodes.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\MQTTReasonCodes.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\MQTTReasonCodes.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Base64.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\Base64.c.obj: ..\src\Base64.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object src/CMakeFiles/common_obj.dir/Base64.c.obj"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\Base64.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Base64.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Base64.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/Base64.c.i"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\Base64.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Base64.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Base64.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/Base64.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\Base64.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Base64.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\SHA1.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\SHA1.c.obj: ..\src\SHA1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object src/CMakeFiles/common_obj.dir/SHA1.c.obj"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\SHA1.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\SHA1.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\SHA1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/SHA1.c.i"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\SHA1.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\SHA1.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\SHA1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/SHA1.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\SHA1.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\SHA1.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\WebSocket.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\WebSocket.c.obj: ..\src\WebSocket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object src/CMakeFiles/common_obj.dir/WebSocket.c.obj"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\WebSocket.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\WebSocket.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\WebSocket.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/WebSocket.c.i"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\WebSocket.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\WebSocket.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\WebSocket.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/WebSocket.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\WebSocket.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\WebSocket.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\StackTrace.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\StackTrace.c.obj: ..\src\StackTrace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building C object src/CMakeFiles/common_obj.dir/StackTrace.c.obj"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\StackTrace.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\StackTrace.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\StackTrace.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/StackTrace.c.i"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\StackTrace.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\StackTrace.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\StackTrace.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/StackTrace.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\StackTrace.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\StackTrace.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Heap.c.obj: src\CMakeFiles\common_obj.dir\flags.make
-src\CMakeFiles\common_obj.dir\Heap.c.obj: ..\src\Heap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building C object src/CMakeFiles/common_obj.dir/Heap.c.obj"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\common_obj.dir\Heap.c.obj /FdCMakeFiles\common_obj.dir\ /FS -c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Heap.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Heap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common_obj.dir/Heap.c.i"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\common_obj.dir\Heap.c.i @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Heap.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-src\CMakeFiles\common_obj.dir\Heap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common_obj.dir/Heap.c.s"
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
-  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\common_obj.dir\Heap.c.s /c "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src\Heap.c"
-<<
-	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-
-common_obj: src\CMakeFiles\common_obj.dir\MQTTTime.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\MQTTProtocolClient.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\Clients.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\utf-8.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\MQTTPacket.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\MQTTPacketOut.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\Messages.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\Tree.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\Socket.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\Log.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\MQTTPersistence.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\Thread.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\MQTTProtocolOut.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\MQTTPersistenceDefault.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\SocketBuffer.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\LinkedList.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\MQTTProperties.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\MQTTReasonCodes.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\Base64.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\SHA1.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\WebSocket.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\StackTrace.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\Heap.c.obj
-common_obj: src\CMakeFiles\common_obj.dir\build.make
-
-.PHONY : common_obj
 
 # Rule to build all files generated by this target.
-src\CMakeFiles\common_obj.dir\build: common_obj
+src\CMakeFiles\paho-mqtt3cs.dir\build: src\paho-mqtt3cs.dll
 
-.PHONY : src\CMakeFiles\common_obj.dir\build
+.PHONY : src\CMakeFiles\paho-mqtt3cs.dir\build
 
-src\CMakeFiles\common_obj.dir\clean:
+src\CMakeFiles\paho-mqtt3cs.dir\clean:
 	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH\src
-	$(CMAKE_COMMAND) -P CMakeFiles\common_obj.dir\cmake_clean.cmake
+	$(CMAKE_COMMAND) -P CMakeFiles\paho-mqtt3cs.dir\cmake_clean.cmake
 	cd C:\Users\AMUTHA~1\Desktop\Philips\CASEST~2\paho\PAHOMQ~1.C\BUILD~1.PAH
-.PHONY : src\CMakeFiles\common_obj.dir\clean
+.PHONY : src\CMakeFiles\paho-mqtt3cs.dir\clean
 
-src\CMakeFiles\common_obj.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c" "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src" "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho" "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src" "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\common_obj.dir\DependInfo.cmake" --color=$(COLOR)
-.PHONY : src\CMakeFiles\common_obj.dir\depend
+src\CMakeFiles\paho-mqtt3cs.dir\depend:
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c" "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\src" "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho" "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src" "C:\Users\Amuthamil Kavioviyan\Desktop\Philips\case study 2\paho\paho.mqtt.c\build.paho\src\CMakeFiles\paho-mqtt3cs.dir\DependInfo.cmake" --color=$(COLOR)
+.PHONY : src\CMakeFiles\paho-mqtt3cs.dir\depend
 
