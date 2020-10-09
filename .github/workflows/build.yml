@@ -13,16 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    
       
     - name: build 
       run: g++ -Wall -Wextra -Werror --coverage -o vendor *.cpp
     
-    
     - name: run sender-test
       run: ./vendor
-    
-    
-      
-   
-      
